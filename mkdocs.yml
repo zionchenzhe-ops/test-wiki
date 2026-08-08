@@ -1,0 +1,84 @@
+site_name: 非凸-α Wiki
+site_url: https://zionchenzhe-ops.github.io/test-wiki/
+docs_dir: J30V2wiki
+site_dir: site
+use_directory_urls: true
+exclude_docs: |
+  .git*
+site_description: 非凸-α 教育科研飞行机器人操作手册
+repo_url: https://github.com/zionchenzhe-ops/test-wiki
+repo_name: zionchenzhe-ops/test-wiki
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换亮色模式
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: zh
+
+nav:
+  - 首页: index.md
+  - 一、快速上手:
+    - 开箱与发货清单: 1-快速上手/开箱与发货清单.md
+    - 充电与遥控器: 1-快速上手/充电与遥控器.md
+    - 实名激活与连接机载电脑: 1-快速上手/实名激活与连接机载电脑.md
+    - 首次手动飞行: 1-快速上手/首次手动飞行.md
+  - 二、产品规格:
+    - 参数与拓展接口: 2-产品规格/参数与拓展接口.md
+  - 三、功能模块:
+    - 定位测试 - 雷达定位: 3-功能模块/定位测试/雷达定位.md
+    - 定位测试 - 视觉定位: 3-功能模块/定位测试/视觉定位.md
+    - 自主导航: 3-功能模块/自主导航.md
+    - 目标跟踪（Elastic Tracker）: 3-功能模块/目标跟踪.md
+    - YOLO 目标检测: 3-功能模块/YOLO.md
+    - YOPO 端到端自主导航: 3-功能模块/Diff-YOPO.md
+    - 集群避障飞行: 3-功能模块/集群.md
+  - 四、二次开发:
+    - ROS 与 Linux 基础操作: 4-二次开发/ROS与Linux基础操作.md
+    - 代码获取与维护: 4-二次开发/代码获取与维护.md
+    - 二次开发接口说明: 4-二次开发/二次开发接口说明.md
+  - 五、速查与排障:
+    - 指令速查手册: 5-速查与排障/指令速查手册.md
+    - 异常处置: 5-速查与排障/异常处置.md
+    - 飞控日志下载: 5-速查与排障/飞控日志下载.md
+    - 相机标定: 5-速查与排障/相机标定.md
+    - 常见问题 FAQ: 5-速查与排障/FAQ.md
+  - 六、维护与支持:
+    - 维护保养: 6-维护与支持/维护保养.md
+    - 安全须知与飞行前检查: 6-维护与支持/安全须知与飞行前检查.md
+    - 免责声明: 6-维护与支持/免责声明.md
+    - 售后服务: 6-维护与支持/售后服务.md

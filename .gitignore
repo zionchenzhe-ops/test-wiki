@@ -1,0 +1,18 @@
+# MkDocs build output
+site/
+
+# Nested inactive git repo
+.git.inactive/
+
+# Personal notes (not for public repo)
+待办事项.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

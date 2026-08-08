@@ -12,7 +12,7 @@
 该飞行机器人采用高度一体化设计，搭载 NVIDIA Jetson Orin NX 16GB 高性能机载计算机（100 TOPS算力），集成 PX4 开源飞控系统（STM32H743主控 @ 480MHz）、Livox Mid-360 360°三维激光雷达及多路USB 3.0、Type-C、以太网扩展接口，轻松连接各类外设。整机外壳采用定制注塑模具成型，抗冲击承载力增强，整机重量（含桨保）约 2.3kg，尺寸376mm×422mm×186mm（含桨叶，不带桨保），配备高能量密度锂聚合物电池（6000mAh/25.2V/131.4Wh），最高支持16分钟续航，无需关机即可快速更换电池，大幅提升实验效率并保障室内/室外多场景使用安全。
 
 软件系统完善，首次部署端到端算法 Diff-YOPO，深度适配 Diff-Navigition（Ego Planner V2升级版，内置一个开源规划器供深度开发，一个闭源规划器提供二次开发接口） 自主运动规划、导航、集群导航，FAST LIO 激光定位、VINS Fusion 视觉定位及 Elastic Tracker 目标跟踪等开源算法栈，提供完整的二次开发接口与 ROS 生态支持。配套详尽的操作教程及完善的售后服务体系，支持课程体系建设、师资培训、赛事支撑及产学研合作，助力高校构建从飞行机器人设计、飞行控制算法到自主导航算法应用的全流程实验教学体系。
-![非凸-α](manual_media/images/产品外观图.png)
+![非凸-α](https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/manual_media/images/%E4%BA%A7%E5%93%81%E5%A4%96%E8%A7%82%E5%9B%BE.png)
 
 ## 目录
 

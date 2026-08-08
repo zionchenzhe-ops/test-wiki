@@ -5,6 +5,8 @@ site_dir: site
 use_directory_urls: true
 exclude_docs: |
   .git*
+  images/**
+  manual_media/**
 site_description: 非凸-α 教育科研飞行机器人操作手册
 repo_url: https://github.com/zionchenzhe-ops/test-wiki
 repo_name: zionchenzhe-ops/test-wiki

@@ -43,11 +43,11 @@
 
 在启动程序之前，请务必核对以下关键参数。相关配置项位于 `Diff-YOPO/YOPO/config/config.yaml` 文件中。
 
-<img src="../images/modules/YOPO/111.png" width="1000" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/modules/YOPO/111.png" width="1000" />
 
 ### 1. 检查途径点坐标 `points`
 
-<img src="../images/modules/YOPO/point.png" width="1000" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/modules/YOPO/point.png" width="1000" />
 
 | 参数名 | 默认值 | 说明 |
 | --- | --- | --- |
@@ -62,7 +62,7 @@
   * `auto_planning` 设为 `0`：无人机起飞悬停后需手动按下遥控器 SD 键触发航线规划；执行完毕后，再次按下 SD 键方可触发返航至 `back_points` 点。
   * `auto_landing` 设为 `0`：到达最后一个目标点后需手动按下遥控器 SD 键，方可触发降落。
 
-<img src="../images/modules/YOPO/auto.png" width="1000" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/modules/YOPO/auto.png" width="1000" />
 
 | 参数名 | 默认值 | 说明 |
 | --- | --- | --- |
@@ -71,7 +71,7 @@
 
 ### 3. 检查飞行速度 `velocity`
 
-<img src="../images/modules/YOPO/velocity.png" width="1000" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/modules/YOPO/velocity.png" width="1000" />
 
 | 参数名 | 默认值 | 说明 |
 | --- | --- | --- |
@@ -81,7 +81,7 @@
 
 `virtual_ceiling_enable` 应设置为 `true`。
 
-<img src="../images/modules/YOPO/virtual.png" width="1000" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/modules/YOPO/virtual.png" width="1000" />
 
 | 参数名 | 默认值 | 说明 |
 | --- | --- | --- |

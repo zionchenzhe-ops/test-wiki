@@ -48,7 +48,7 @@ rqt_image_view
 
 在 `rqt_image_view` 界面中选择 `/yolo_detection/visualization` 话题，即可看到 YOLO 检测结果，如下图：
 
-<img src="../manual_media/media/image89.png" height="550" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/manual_media/media/image89.png" height="550" />
 
 ---
 

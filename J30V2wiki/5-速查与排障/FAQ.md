@@ -22,17 +22,17 @@
 **5. 无人机内部物理传感器的安装位置信息在哪里查看？包括机体坐标系（body）、基准坐标系（base_link）、Livox 雷达坐标系（livox_frame）、PX4 IMU 坐标系之间的静态坐标变换（static tf）。另外，机体坐标系（body frame）在无人机上的实际物理位置是如何定义的？**
 无人机的飞控IMU位置被视作机体坐标系（body frame）的原点。激光雷达坐标系（lidar frame）与机体坐标系原点之间的转换矩阵和平移矩阵，可在文件 `Diff-Planner/src/realflight_modules/faster-lio/config/mid360.yaml` 中找到。其中，`extrinsic_T` 和 `extrinsic_R` 分别表示激光雷达相对于其内置IMU的平移矩阵与旋转矩阵，`world_transform_T` 和 `world_transform_R` 则分别表示雷达内置IMU相对于机体坐标系的平移矩阵与旋转矩阵。
 
-<img src="../manual_media/media/101.png" height="40" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/manual_media/media/101.png" height="40" />
 
 **6. 终端显示 `zsh: corrupt history file /home/nv/.zsh_history`，是什么原因？**
 
-<img src="../manual_media/media/102.png" height="200" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/manual_media/media/102.png" height="200" />
 
 强行关机会这样，删掉这个报错文件即可：`rm /home/nv/.zsh_history`
 
 **7. 启动程序后终端输出以下内容是什么原因？**
 
-<img src="../images/faq/p1.png" height="200" />
+<img src="https://cdn.jsdelivr.net/gh/zionchenzhe-ops/test-wiki@main/J30V2wiki/images/faq/p1.png" height="200" />
 
 ROS 在运行过程中，会自动把各种运行日志保存在 `~/.ros/log` 这个文件夹里。时间一长，或者经过多次调试运行，这些日志文件会越积越多，占用的磁盘空间超过了 1GB 的默认提醒阈值。这条警告不会阻止你的程序正常启动和运行，可以忽略。
 
